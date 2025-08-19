@@ -1,7 +1,5 @@
-# Text-to-Flowchart-Converter
-Automates converting Python code into flowcharts with a Tkinter GUI. Uses PyFlowchart for parsing and Graphviz for rendering. Supports PNG, SVG, PDF, HTML exports. Fast, error-resilient, and ideal for developers and educators.
-
 # Text to Flowchart Converter
+Automates converting Python code into flowcharts with a Tkinter GUI. Uses PyFlowchart for parsing and Graphviz for rendering. Supports PNG, SVG, PDF, HTML exports. Fast, error-resilient, and ideal for developers and educators.
 
 An innovative Python application that automatically converts structured code into professional flowcharts with multi-format export capabilities.
 
