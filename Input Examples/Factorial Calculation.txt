@@ -1,0 +1,16 @@
+# factorial.txt
+
+# Read n
+n = int(input("Enter n: "))
+
+# Initialize result
+fact = 1
+i = 1
+
+# Compute factorial
+while i <= n:
+    fact = fact * i
+    i = i + 1
+
+# Output
+print(f"The factorial of {n} is {fact}")

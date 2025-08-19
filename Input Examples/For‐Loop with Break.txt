@@ -1,0 +1,18 @@
+# find_prime.txt
+
+# Read number to test
+num = int(input("Check primes up to: "))
+
+# Outer loop over each candidate
+for candidate in range(2, num + 1):
+    is_prime = True
+    
+    # Check divisibility
+    for d in range(2, int(candidate**0.5) + 1):
+        if candidate % d == 0:
+            is_prime = False
+            break
+    
+    # Report result
+    if is_prime:
+        print(f"{candidate} is prime")
