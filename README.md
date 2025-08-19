@@ -30,13 +30,52 @@ An innovative Python application that automatically converts structured code int
 ### Prerequisites
 Make sure you have Python 3.6 or higher installed on your system.
 
-### Install Dependencies
+## Install Dependencies
 
-### Install Graphviz System Package
-- **Windows**: Download from [Graphviz website](https://graphviz.org/download/)
-- **macOS**: `brew install graphviz`
-- **Ubuntu/Debian**: `sudo apt-get install graphviz`
-- **CentOS/RHEL**: `sudo yum install graphviz`
+1. **Install Python 3.6 or higher**  
+   Download and install from the official [Python website](https://www.python.org/downloads/).  
+   Ensure the `python` and `pip` commands are available in your terminal or command prompt.
+
+2. **Install Python packages**  
+   Use pip to install the required Python libraries:
+
+
+3. **Install Graphviz system package**  
+Graphviz is required for rendering flowcharts. Install it according to your operating system:
+
+- **Windows**:  
+  Download the Graphviz installer from the [Graphviz website](https://graphviz.org/download/).  
+  After installation, add the Graphviz `bin` directory (e.g., `C:\Program Files\Graphviz\bin`) to your system PATH environment variable.
+
+- **macOS**:  
+  ```
+  brew install graphviz
+  ```
+
+- **Linux (Ubuntu/Debian)**:  
+  ```
+  sudo apt-get update
+  sudo apt-get install graphviz
+  ```
+
+- **Linux (CentOS/RHEL)**:  
+  ```
+  sudo yum install graphviz
+  ```
+
+4. **Verify Graphviz installation**  
+Run the following command to verify the installation:
+
+This should print the installed Graphviz version without errors.
+
+5. **Troubleshooting**  
+- If you encounter errors related to missing Graphviz executables during flowchart generation, ensure the Graphviz `bin` directory is correctly added to your PATH environment variable and restart your terminal or IDE.  
+- On some systems, Tkinter may need to be installed separately. For Debian/Ubuntu:
+  ```
+  sudo apt-get install python3-tk
+  ```
+
+Following these steps will prepare your environment to run the Text to Flowchart Converter smoothly.
 
 ## 🚀 Usage
 
