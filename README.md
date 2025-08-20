@@ -30,7 +30,12 @@ An innovative Python application that automatically converts structured code int
 ### Prerequisites
 Make sure you have Python 3.6 or higher installed on your system.
 
-## Install Dependencies
+## Install Dependencies 
+
+   > **Note:** Tkinter is included with most Python installations by default.
+   > On Debian/Ubuntu, install it with:  
+   > `sudo apt-get install python3-tk`
+
 
 1. **Install Python 3.6 or higher**  
    Download and install from the official [Python website](https://www.python.org/downloads/).  
