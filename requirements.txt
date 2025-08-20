@@ -1,3 +1,2 @@
 pyflowchart
 graphviz
-tkinter
